@@ -47,6 +47,13 @@ header h1 sub {
     font-size: 2rem;
 }
 
+h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--blue);
+    margin-bottom: 1rem;
+}
+
 section {
     margin: 2rem 0;
     text-align: center;
@@ -54,6 +61,10 @@ section {
 
 section p {
     margin: 2rem 0;
+}
+
+section h2+p {
+    margin-top: 0;
 }
 
 section address {
@@ -69,4 +80,9 @@ section.patent {
 section.patent span.patent-number {
     font-size: 1rem;
     font-weight: normal;
+}
+
+section.blurb {
+    font-size: 1.5rem;
+    font-style: italic;
 }
